@@ -17,6 +17,8 @@ def run(code):
             bf[x] += 1
         elif sym == '-':
             bf[x] -= 1
+        elif sym == '*':
+            bf[x] *= 10
         elif sym == '.':
             print(chr(bf[x]), end='')
         elif sym == ',':
