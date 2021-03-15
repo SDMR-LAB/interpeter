@@ -1,10 +1,10 @@
 from language import *
 
 def run(code):
-    code = parse(code)
+    code = language.parse(code)
     x = i = 0
     bf = {0: 0}
-    blocks = block(code)
+    blocks = language.block(code)
     l = len(code)
     while i < l:
         sym = code[i]
