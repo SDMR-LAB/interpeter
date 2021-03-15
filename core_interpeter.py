@@ -1,10 +1,10 @@
-from language import *
+import lang105
 
 def run(code):
-    code = language.parse(code)
+    code = parse(code)
     x = i = 0
     bf = {0: 0}
-    blocks = language.block(code)
+    blocks = block(code)
     l = len(code)
     while i < l:
         sym = code[i]
