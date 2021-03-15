@@ -1,3 +1,5 @@
+import language
+
 def run(code):
     code = parse(code)
     x = i = 0
