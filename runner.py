@@ -1,4 +1,4 @@
 import core_interpeter
 
 code = input()
-run(code)
+core_interpeter.run(code)
