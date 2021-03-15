@@ -1,4 +1,4 @@
-import core.py
+from core.py import *
 
 code = input()
 run(code)
