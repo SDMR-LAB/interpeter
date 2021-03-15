@@ -1,4 +1,4 @@
-from core.py import *
+import core_interpeter
 
 code = input()
 run(code)
