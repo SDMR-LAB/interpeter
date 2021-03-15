@@ -10,4 +10,4 @@ def block(code):
     return blocks
 
 def parse(code):
-    return ''.join(c for c in code if c in '><+-.,[]')
+    return ''.join(c for c in code if c in '><+*-.,[]')
