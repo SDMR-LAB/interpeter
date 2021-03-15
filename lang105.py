@@ -10,4 +10,8 @@ def block(code):
     return blocks
 
 def parse(code):
-    return ''.join(c for c in code if c in '><+*-.,[]')
+    new = ""
+    for c in code:
+        if c in "shift_left shift_right plus minus point zapa[]":
+            new += c
+    return new
