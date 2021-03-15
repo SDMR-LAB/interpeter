@@ -1,4 +1,4 @@
-import lang105
+import lang105.py
 
 def run(code):
     code = lang105.parse(code)
